@@ -484,6 +484,9 @@ body {
     flex-direction: row-reverse;
     margin-top: 230px;
 }
+.article{
+  margin-bottom: 200px;
+}
 .article__card{
     display: flex;
     justify-content: space-between;
@@ -532,9 +535,67 @@ body {
     text-decoration: none;
     color:#458FF6;
 }
+.footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding-top: 113px;
+    padding-bottom: 133px;
+}
+.footer__container{
+    display: flex;
+    align-items: flex-start;
+}
+.footer__content{
+  margin-right: 150px;
+}
+.logo__footer{
+    display: block;
+}
+.footer__content__text{
+  max-width: 390px;
+  margin-top: 17px;
+  margin-bottom: 31px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #FFFFFF;
+
+}
+.footer__content__span{
+  font-weight: 300;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+.footer__menu__block{
+  display: flex;
+  gap:190px;
+}
+
+.footer__menu__title{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 60px;
+  color: #FFFFFF;
+}
+.footer__menu__list__link{
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 38px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer__menu__list__link:hover{
+  text-decoration: underline;
+}
 @media(max-width:1024px){
     .services__card__item{
         width: 43%;
+    }
+    .footer__menu__block{
+      display: none;
+    }
+    .footer__content{
+      max-width: 100%;
+      margin:0 auto;
     }
 }
 @media(max-width:768px){
@@ -567,11 +628,55 @@ body {
     .services__info__item--revers{
         margin-top: 150px;
     }
+    .footer__container{
+      flex-direction: column-reverse;
+      align-items: center;
+    }
+    
 
     
 }
 @media(max-width:576px){
     .services__card__item{
         width: 100%;
+    }
+    .intro{
+      margin-bottom: 60px;
+    }
+    .intro__text{
+      font-size: 13px;
+      margin-bottom: 25px;
+    }
+    .site__title{
+      font-size: 30px;
+    }
+    .services__text{
+      font-size: 13px;
+      margin-bottom: 40px;
+    }
+    .sm{
+      display: none;
+    }
+    .btn__services{
+      margin-bottom: 110px;
+    }
+    .services__info__item__content-title{
+      font-size: 30px;
+    }
+    .footer__content__text{
+      font-size: 13px;
+    }
+    .footer__content__span{
+      font-size: 13px;
+    }
+    .services__info__item__content-text{
+      font-size: 14px;
+    }
+    .services__info__item--revers{
+      margin-top: 110px;
+    }
+    .footer{
+      padding-top: 73px;
+    padding-bottom: 73px;
     }
 }
