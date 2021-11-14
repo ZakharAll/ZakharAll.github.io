@@ -680,3 +680,9 @@ body {
     padding-bottom: 73px;
     }
 }
+@media(max-width:320px){
+  .services__info__item__content-title{
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
