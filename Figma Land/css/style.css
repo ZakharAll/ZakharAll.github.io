@@ -1,0 +1,33 @@
+@import url(components/_flex.css);
+@import url(components/_header.css);
+@import url(components/_burger.css);
+@import url(components/_main.css);
+@import url(components/_features.css);
+@import url(components/_contents.css);
+@import url(components/_gallery.css);
+@import url(components/_partners.css);
+@import url(components/_testimonials.css);
+@import url(components/_banner.css);
+@import url(components/_footer.css);
+/* font-family: 'Roboto', sans-serif; 
+   font-family: 'Graphik';
+*/
+body{
+    background-color: #181818;
+    font-family: 'Graphik';
+    font-weight: 400;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+button{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.container{
+    max-width: 1260px;
+    padding: 0 30px;
+    margin: 0 auto;
+}

@@ -1,0 +1,106 @@
+.contents{
+    margin-bottom: 210px;
+}
+.contents__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contents__top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contents__title{
+    font-size: 52px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-bottom: 27px;
+}
+.contents__text{
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    max-width: 571px;
+    margin-bottom: 55px;
+
+}
+.contents__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 33px;
+}
+.contents__info{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    max-width: 48%;
+}
+.contents__info__title{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.contents__info__text{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #5C5C5C;
+    max-width: 268px;
+    margin-bottom: 55px;
+}
+.contents__info__btn{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding: 14px 46px;
+    background-color: #4452FE;
+    margin-bottom: 55px;
+}
+.contents__info__img{
+    margin: 0px 35px 40px 35px;
+    max-width: 100%;
+}
+.contents__info__img img{
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+}
+.left__text{
+    margin-bottom: 20px;
+}
+.left__info__img{
+    margin: 0px 16px 0px 16px;
+}
+.left__btn{
+    margin-bottom: 20px;
+}
+@media(max-width:768px){
+    .contents{
+        margin-bottom: 80px;
+    }
+    .contents__bottom{
+        flex-direction: column;
+    }
+    .contents__info{
+        max-width: 98%;
+    }
+    .contents__title{
+        font-size: 40px;
+    }
+    .contents__text{
+        font-size: 16px;
+    }
+}
